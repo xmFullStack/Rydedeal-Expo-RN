@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>275372917947-ms6um8baail2dj6io3qk33qp2md047np.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.275372917947-ms6um8baail2dj6io3qk33qp2md047np</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCjG5SmIAOBBTSLfRXhMtD7QWH4d0u34aQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>275372917947</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.anand.rydedeal</string>
+	<key>PROJECT_ID</key>
+	<string>rydedeal</string>
+	<key>STORAGE_BUCKET</key>
+	<string>rydedeal.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:275372917947:ios:0dc40d07c94ec5a0cf959e</string>
+	<key>DATABASE_URL</key>
+	<string>https://rydedeal.firebaseio.com</string>
+</dict>
+</plist>

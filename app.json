@@ -1,0 +1,68 @@
+{
+  "expo": {
+    "name": "Rydedeal",
+    "slug": "rydedeal",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.anand.rydedeal",
+      "buildNumber": "26",
+      "supportsTablet": true,
+      "icon": "./assets/icon.png",
+      "requireFullScreen": true,
+      "googleServicesFile": "./GoogleService-Info.plist",
+      "config": {
+        "googleSignIn": {
+          "reservedClientId": "com.googleusercontent.apps.275372917947-ms6um8baail2dj6io3qk33qp2md047np"
+        }
+      },
+      "infoPlist": {
+        "supportsTablet": true,
+        "UIBackgroundModes": ["location", "fetch"],
+        "NSCameraUsageDescription": "Rydedeal uses the camera to take photo of your profile, information of car.",
+        "NSLocationWhenInUseUsageDescription":"Rydedeal uses location for your ride.",
+        "NSLocationAlwaysUsageDescription":"Rydedeal uses location for your ride.",
+        "NSPhotoLibraryAddUsageDescription":"Rydedeal uses the photo library to take photo of your profile, information of car.",
+        "NSPhotoLibraryUsageDescription":"Rydedeal uses the photo library to take photo of your profile, information of car."
+      }
+    },
+    "android": {
+      "package": "com.anand.rydedeal",
+      "versionCode": 1,
+      "googleServicesFile": "./google-services.json",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyBYWssWxa3wRKMeazm2maDJnGNF0RRf0o8"
+        }
+      }
+     
+    },
+    "androidStatusBar": {
+      "hidden": false,
+      "barStyle": "light-content"
+    },
+    "facebookAppId": "203737747626817",
+    "facebookDisplayName": "Rydedeal",
+    "description": ""
+    
+  }
+}
